@@ -1,0 +1,18 @@
+<html>
+    <head>
+        </head>
+        <body>
+            <table border="1"> 
+                <tr><th>HREF</th><td id="p1"></td></tr>
+                <tr><th>Path Name:</th><td id="p2"></td></tr>
+                <tr><th>Protocol:</th><td id="p3"></td></tr>
+                </table>
+                <p>Click <a href="register.html">Here</a> to register</p>
+                <script>
+                    document.getElementById("p1").innerHTML=location.href;
+                    document.getElementById("p2").innerHTML=location.pathname;
+                    document.getElementById("p3").innerHTML=location.protocol;
+                    </script>
+            </body>
+    </html>
+    
